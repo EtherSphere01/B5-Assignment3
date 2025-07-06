@@ -313,16 +313,3 @@ npm start
 6. **Error Handling**: Consistent error response format
 7. **Filtering & Sorting**: Query parameters for book retrieval
 8. **Business Logic**: Automatic inventory management on borrowing
-
-## 📄 License
-
-This project is licensed under the ISC License.
-
-## 👨‍💻 Author
-
-Created as part of Assignment 3 - Library Management System API.
-
----
-
-**Note**: This implementation strictly follows the provided API specifications and includes all required features: proper validation, business logic enforcement, aggregation pipeline usage, Mongoose static/instance methods, middleware implementation, and filtering capabilities.
-"# B5-Assignment3" 
