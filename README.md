@@ -2,6 +2,8 @@
 
 A comprehensive Library Management System built with Express, TypeScript, and MongoDB.
 
+### Live Link: https://library-management-system-api-seven.vercel.app/
+
 ## 🚀 Features
 
 -   **Book Management**: Create, read, update, and delete books
@@ -56,6 +58,12 @@ npm run dev
    [APIs](https://github.com/EtherSphere01/B5-Assignment3/blob/main/Library%20Management%20System%20API.postman_collection.json)
 
 ## 📚 API Endpoints
+
+### 🏠 Test Connection
+
+```bash
+curl http://localhost:5000
+```
 
 ### Book Management
 
@@ -196,43 +204,6 @@ npm run dev
 -   Automatic inventory management when borrowing
 -   Availability updates using Mongoose instance methods
 -   Aggregation pipeline for borrowing summaries
-
-## 🧪 Testing the API
-
-You can test the API using tools like Postman, curl, or any HTTP client:
-
-### Create a Book
-
-```bash
-curl -X POST http://localhost:5000/api/books \
-  -H "Content-Type: application/json" \
-  -d '{
-    "title": "1984",
-    "author": "George Orwell",
-    "genre": "FICTION",
-    "isbn": "9780451524935",
-    "description": "A dystopian social science fiction novel",
-    "copies": 10
-  }'
-```
-
-### Get All Books
-
-```bash
-curl http://localhost:5000/api/books
-```
-
-### Borrow a Book
-
-```bash
-curl -X POST http://localhost:5000/api/borrow \
-  -H "Content-Type: application/json" \
-  -d '{
-    "book": "BOOK_ID_HERE",
-    "quantity": 1,
-    "dueDate": "2025-08-01T00:00:00.000Z"
-  }'
-```
 
 ## 📝 Error Handling
 
