@@ -276,13 +276,4 @@ npm start
 -   **ts-node-dev**: Development server with hot reload
 -   **@types/\***: TypeScript type definitions
 
-## 🔍 Key Features Implemented
 
-1. **Exact API Compliance**: All endpoints match the specified format exactly
-2. **Comprehensive Validation**: Zod schemas with detailed error messages
-3. **Mongoose Middleware**: Pre-save hooks for business logic
-4. **Static/Instance Methods**: Custom methods for availability management
-5. **Aggregation Pipeline**: MongoDB aggregation for borrowing summaries
-6. **Error Handling**: Consistent error response format
-7. **Filtering & Sorting**: Query parameters for book retrieval
-8. **Business Logic**: Automatic inventory management on borrowing
