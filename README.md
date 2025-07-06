@@ -22,8 +22,8 @@ A comprehensive Library Management System built with Express, TypeScript, and Mo
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd library-management-system
+git clone https://github.com/EtherSphere01/B5-Assignment3.git
+cd B5-Assignment3
 ```
 
 2. Install dependencies:
@@ -51,6 +51,9 @@ npm run build
 ```bash
 npm run dev
 ```
+
+6. Import APIs into the Postman
+   [APIs](https://github.com/EtherSphere01/B5-Assignment3/blob/main/Library%20Management%20System%20API.postman_collection.json)
 
 ## 📚 API Endpoints
 
@@ -294,7 +297,6 @@ npm start
 -   **mongoose**: MongoDB ODM
 -   **zod**: Schema validation
 -   **dotenv**: Environment configuration
--   **bcrypt/bcryptjs**: Password hashing utilities
 -   **validator**: String validation
 
 ### Development Dependencies
